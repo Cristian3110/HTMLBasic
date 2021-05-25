@@ -15,3 +15,25 @@ td{
 th{
     text-align: center;
 }
+
+caption{
+    color: #e63946;
+    font-family: 'Squada One', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+/*Se utiliza esta propiedad para seleccionar los pares e impares
+even(pares) odd(impares)*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+
+tr:nth-child(odd){
+    background-color: antiquewhite;
+}

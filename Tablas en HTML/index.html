@@ -5,25 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/Tablas en HTML/estilos.css" />
-    <title>Tablas en HTML</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <table border="1">
+      <caption>
+        Listado de Personas
+      </caption>
       <tr>
-          <!--Para ocupar 2 renglones en las tablas-->
-        <th colspan="2">Nombre</th>
-        <!--<th>Apellido</th>-->
+        <!--Para ocupar 2 renglones en las tablas-->
+        <!--Se usa el colspan=2 en el th y se quita el eglón faltante-->
+        <th>Nombre</th>
+        <th>Apellido</th>
         <th>Email</th>
       </tr>
       <tr>
         <td>Juan</td>
         <td>Pérez</td>
-        <td rowspan="2">juanperez@hotmail.com</td>
+        <!-- <td rowspan="2">juanperez@hotmail.com</td> -->
+        <td>juanperez@hotmail.com</td>
       </tr>
       <tr>
         <td>Maria</td>
         <td>Lara</td>
-        <!--<td>marialara@hotmail.com</td>-->
+        <td>marialara@hotmail.com</td>
+      </tr>
+      <tr>
+        <td>Alberto</td>
+        <td>Camacho</td>
+        <!-- <td rowspan="2">juanperez@hotmail.com</td> -->
+        <td>albertocamach@hotmail.com</td>
+      </tr>
+      <tr>
+        <td>Carmen</td>
+        <td>Cegarra</td>
+        <td>carmecega@hotmail.com</td>
+      </tr>
+      <tr>
+        <td>mari</td>
+        <td>alvarado</td>
+        <!-- <td rowspan="2">juanperez@hotmail.com</td> -->
+        <td>alvamari@hotmail.com</td>
+      </tr>
+      <tr>
+        <td>Genesis</td>
+        <td>Guerra</td>
+        <td>guesis@hotmail.com</td>
       </tr>
     </table>
   </body>
