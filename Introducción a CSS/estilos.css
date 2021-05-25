@@ -1,4 +1,13 @@
 
+body{
+    background-color: #7B68EE;
+}
+
 h1{
-    color: aqua;
+    background-color: #eea968;
+    color:#011093;
+    padding: 25px;
+    border: 10px solid rgba(29, 42, 156, 0.548);
+    margin: 50px;
+    text-align: center;
 }
