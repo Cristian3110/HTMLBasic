@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #ffd6a5;
+    font-family: 'Balsamiq Sans';
+}
+
+h1{
+    color: #7209b7;
+    text-align: center;
+}
+
+h2{
+    color: #b5179e;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+/*Clase de CSS*/
+
+.tarjeta{
+    border: solid #7209b7;
+    border-radius: 30px;
+    text-align: center;
+    margin: 50px 250px;
+    padding: 15px;
+}
+
+.titulo{
+    color: #f72585;
+
+}
