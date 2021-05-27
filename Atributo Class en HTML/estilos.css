@@ -9,9 +9,11 @@ body{
     font-family: 'Balsamiq Sans';
 }
 
-h1{
+/*identificador de css*/
+#titulo_principal{
     color: #7209b7;
     text-align: center;
+    margin-top: 20px;
 }
 
 h2{
