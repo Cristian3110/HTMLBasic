@@ -15,10 +15,15 @@
   <body>
     <h1 class="titulo">Formularios en HTMl</h1>
     <br />
-    <form action="">
+    <form class="formulario" action="">
       <label for="nombre">Nombre: </label>
-      <input type="text" id="nombre" />
-      <input type="submit" id="enviar" />
+      <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombe aquí"/>
+      <br />
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" placeholder="escribe tu apellido aquí" />
+      <br />
+      <br />
+      <input class="boton" type="submit" id="enviar" />
     </form>
   </body>
 </html>
