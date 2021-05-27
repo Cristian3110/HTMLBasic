@@ -15,15 +15,42 @@
   <body>
     <h1 class="titulo">Formularios en HTMl</h1>
     <br />
-    <form class="formulario" action="">
+    <form class="formulario" action="" method="POST">
       <label for="nombre">Nombre: </label>
-      <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombe aquí"/>
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="escribe tu nombe aquí"
+        required="true"
+      />
       <br />
       <label for="apellido">Apellido:</label>
-      <input type="text" id="apellido" name="apellido" placeholder="escribe tu apellido aquí" />
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="escribe tu apellido aquí"
+        required="true"
+      />
       <br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="escribe la contraseña"
+        required="true"
+      />
       <br />
       <input class="boton" type="submit" id="enviar" />
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Sin Validar"
+        name=""
+        id=""
+      />
     </form>
   </body>
 </html>
