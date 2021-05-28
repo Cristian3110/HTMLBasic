@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="/Formularios/estilos.css" />
     <title>Formularios en HTML</title>
   </head>
@@ -16,9 +17,11 @@
     <h1 class="titulo">Formularios en HTMl</h1>
     <br />
     <!--method="POST" en el formulario-->
-    <form class="formulario" action="">
+    <!--podemos utilizar target="_self" para que carge en la misma pág-->
+    <!--autocomplete=off para que no autocomplete el formulario-->
+    <form class="formulario" action="mi_servidor" target="_self" autocomplete="off">
       <fieldset>
-          <legend>Datos Personas:</legend>
+        <legend>Datos Personas:</legend>
         <label for="nombre">Nombre: </label>
         <input
           type="text"
