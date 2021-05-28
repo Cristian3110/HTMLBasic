@@ -38,3 +38,14 @@ label{
     background-color: #0081a7;
     color: white;
 }
+
+select{
+    background-color: #fed9b7;
+    border-radius: 10px;
+    border-color: #f07167;
+    padding: 3px;
+}
+select:hover{
+    background-color: #0081a7;
+    color: white;
+}

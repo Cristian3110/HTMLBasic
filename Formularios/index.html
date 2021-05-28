@@ -78,6 +78,28 @@
       <input type="checkbox" id="pop" name="musica" value="pop" />
       <label for="pop">Pop</label>
       <br />
+      <br />
+      <label for="autos">Marca de Autos Favorita:</label>
+      <br />
+      <select name="autos" id="autos" required="true">
+        <!--En caso de querer seleccionar multiples valores se utiliza (multiple="true") en el select-->
+        <option value="volvo">Volvo</option>
+        <option value="Mercedes" selected="true">Mercedes</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="BMW">BMW</option>
+      </select>
+      <br />
+      <br />
+      <label for="comentario">Comentario:</label>
+      <br />
+      <textarea
+        name="comentario"
+        id="comentario"
+        cols="50"
+        rows="5"
+        placeholder="Escribe un comentario"
+      ></textarea>
+      <br />
       <label for="password">Password: </label>
       <input
         type="password"
