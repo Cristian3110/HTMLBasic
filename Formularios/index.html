@@ -17,106 +17,109 @@
     <br />
     <!--method="POST" en el formulario-->
     <form class="formulario" action="">
-      <label for="nombre">Nombre: </label>
-      <input
-        type="text"
-        id="nombre"
-        name="nombre"
-        placeholder="escribe tu nombe aquí"
-        required="true"
-      />
-      <br />
-      <label for="apellido">Apellido:</label>
-      <input
-        type="text"
-        id="apellido"
-        name="apellido"
-        placeholder="escribe tu apellido aquí"
-        required="true"
-      />
-      <br />
-      <label for="email">Email: </label>
-      <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="escribe tu email aquí"
-        required="true"
-      />
-      <br />
-      <!--con la propiedad step="any" podemos permitir valores númericos con decimales-->
-      <label for="edad">Edad: </label>
-      <input
-        type="number"
-        id="edad"
-        name="edad"
-        placeholder="introduzca su edad"
-        required="true"
-      />
-      <br />
-      <label for="">Género</label>
-      <input type="radio" id="femenino" name="genero" value="femenino" />
-      <label for="femenino">Femenino</label>
-      <input type="radio" id="masculino" name="genero" value="masculino" />
-      <label for="masculino">Masculino</label>
-      <br />
-      <br />
-      <label for="">Música Favorita</label>
-      <br />
-      <input type="checkbox" id="clasica" name="musica" value="clasica" />
-      <label for="clasica">Clásica</label>
-      <br />
-      <input type="checkbox" name="musica" id="salsa" value="salsa" />
-      <label for="salsa">Salsa</label>
-      <br />
-      <input type="checkbox" id="merengue" name="musica" value="merengue" />
-      <label for="merengue">Merengue</label>
-      <br />
-      <input type="checkbox" id="reggaeton" name="musica" value="reggaeton" />
-      <label for="reggaeton">Reggaeton</label>
-      <br />
-      <input type="checkbox" id="pop" name="musica" value="pop" />
-      <label for="pop">Pop</label>
-      <br />
-      <br />
-      <label for="autos">Marca de Autos Favorita:</label>
-      <br />
-      <select name="autos" id="autos" required="true">
-        <!--En caso de querer seleccionar multiples valores se utiliza (multiple="true") en el select-->
-        <option value="volvo">Volvo</option>
-        <option value="Mercedes" selected="true">Mercedes</option>
-        <option value="Ferrari">Ferrari</option>
-        <option value="BMW">BMW</option>
-      </select>
-      <br />
-      <br />
-      <label for="comentario">Comentario:</label>
-      <br />
-      <textarea
-        name="comentario"
-        id="comentario"
-        cols="50"
-        rows="5"
-        placeholder="Escribe un comentario"
-      ></textarea>
-      <br />
-      <label for="password">Password: </label>
-      <input
-        type="password"
-        id="password"
-        name="password"
-        placeholder="escribe la contraseña"
-        required="true"
-      />
-      <br />
-      <input class="boton" type="submit" id="enviar" />
-      <input
-        type="submit"
-        formnovalidate="formnovalidate"
-        value="Sin Validar"
-        name=""
-        id=""
-      />
+      <fieldset>
+          <legend>Datos Personas:</legend>
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="escribe tu nombe aquí"
+          required="true"
+        />
+        <br />
+        <label for="apellido">Apellido:</label>
+        <input
+          type="text"
+          id="apellido"
+          name="apellido"
+          placeholder="escribe tu apellido aquí"
+          required="true"
+        />
+        <br />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="escribe tu email aquí"
+          required="true"
+        />
+        <br />
+        <!--con la propiedad step="any" podemos permitir valores númericos con decimales-->
+        <label for="edad">Edad: </label>
+        <input
+          type="number"
+          id="edad"
+          name="edad"
+          placeholder="introduzca su edad"
+          required="true"
+        />
+        <br />
+        <label for="">Género</label>
+        <input type="radio" id="femenino" name="genero" value="femenino" />
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <label for="masculino">Masculino</label>
+        <br />
+        <br />
+        <label for="">Música Favorita</label>
+        <br />
+        <input type="checkbox" id="clasica" name="musica" value="clasica" />
+        <label for="clasica">Clásica</label>
+        <br />
+        <input type="checkbox" name="musica" id="salsa" value="salsa" />
+        <label for="salsa">Salsa</label>
+        <br />
+        <input type="checkbox" id="merengue" name="musica" value="merengue" />
+        <label for="merengue">Merengue</label>
+        <br />
+        <input type="checkbox" id="reggaeton" name="musica" value="reggaeton" />
+        <label for="reggaeton">Reggaeton</label>
+        <br />
+        <input type="checkbox" id="pop" name="musica" value="pop" />
+        <label for="pop">Pop</label>
+        <br />
+        <br />
+        <label for="autos">Marca de Autos Favorita:</label>
+        <br />
+        <select name="autos" id="autos" required="true">
+          <!--En caso de querer seleccionar multiples valores se utiliza (multiple="true") en el select-->
+          <option value="volvo">Volvo</option>
+          <option value="Mercedes" selected="true">Mercedes</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="BMW">BMW</option>
+        </select>
+        <br />
+        <br />
+        <label for="comentario">Comentario:</label>
+        <br />
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="50"
+          rows="5"
+          placeholder="Escribe un comentario"
+        ></textarea>
+        <br />
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="escribe la contraseña"
+          required="true"
+        />
+        <br />
+        <input class="boton" type="submit" id="enviar" />
+        <input
+          type="submit"
+          formnovalidate="formnovalidate"
+          value="Sin Validar"
+          name=""
+          id=""
+        />
+      </fieldset>
     </form>
   </body>
 </html>
