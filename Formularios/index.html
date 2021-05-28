@@ -19,7 +19,12 @@
     <!--method="POST" en el formulario-->
     <!--podemos utilizar target="_self" para que carge en la misma pág-->
     <!--autocomplete=off para que no autocomplete el formulario-->
-    <form class="formulario" action="mi_servidor" target="_self" autocomplete="off">
+    <form
+      class="formulario"
+      action="mi_servidor"
+      target="_self"
+      autocomplete="off"
+    >
       <fieldset>
         <legend>Datos Personas:</legend>
         <label for="nombre">Nombre: </label>
@@ -116,12 +121,14 @@
         <br />
         <input class="boton" type="submit" id="enviar" />
         <input
+          class="boton"
           type="submit"
           formnovalidate="formnovalidate"
           value="Sin Validar"
           name=""
           id=""
         />
+        <input class="boton" type="reset" value="Restablecer" />
       </fieldset>
     </form>
   </body>
