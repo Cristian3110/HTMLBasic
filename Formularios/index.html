@@ -64,6 +64,23 @@
           required="true"
         />
         <br />
+        <br />
+        <h3>Información automática desde el Servidor</h3>
+        <p>Información de sólo lectura</p>
+        <label for="idPersona">Persona:</label>
+        <!--En el caso de disable="true" tenemos que tener cuidado ya que si lo deshabilitamos no se envía al servidor-->
+        <input
+          type="text"
+          id="idPersona"
+          name="idPersona"
+          readonly="true"
+          value="100"
+          disabled="true"
+        />
+        <br />
+        <!--Enviando un valor oculto en el formulario ya precargado desde el servicio-->
+        <input type="hidden" name="sistema" id="sistema" value="SAP" />
+        <br />
         <label for="">Género</label>
         <input type="radio" id="femenino" name="genero" value="femenino" />
         <label for="femenino">Femenino</label>
