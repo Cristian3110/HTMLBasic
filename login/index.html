@@ -14,21 +14,25 @@
       href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/login/style.css">
+    <link rel="stylesheet" href="/login/style.css" />
     <title>Login with HTML & CSS</title>
   </head>
   <body>
-    <h1>Login Design with HTML and CSS</h1>
+    <h1 class="titulo">Login Design with HTML and CSS</h1>
     <br />
-    <h2>Login</h2>
-    <label for="usuario" id="usuario" >Usuario</label>
-    <br />
-    <input id="usuario" name="usuario" type="text" />
-    <br />
-    <label for="password" id="password">Password</label>
-    <br />
-    <input type="password" id="password" name="password" />
-    <br />
-    <button type="submit">Enviar</button>
+    <div class="formulario">
+        <h2>Login</h2>
+      <form action="" autocomplete="off" target="_self">
+        <label for="usuario" id="usuario">Usuario</label>
+        <br />
+        <input id="usuario" name="usuario" type="text" required />
+        <br />
+        <label for="password" id="password">Password</label>
+        <br />
+        <input type="password" id="password" name="password" required />
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
   </body>
 </html>
