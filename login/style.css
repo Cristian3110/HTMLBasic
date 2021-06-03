@@ -6,6 +6,11 @@
   font-family: "Londrina Solid";
 }
 
+.grid-body {
+  display: grid;
+  gap: 5px;
+}
+
 body {
   background-color: #1a759f;
 }
@@ -66,14 +71,14 @@ button {
   background-color: #184e77;
   border-radius: 15px;
   border: solid 5px #d9ed92;
-  border-style: outset ;
+  border-style: outset;
+  cursor: pointer;
 }
 
-button:hover{
-    background-color: #b5e48c;
+button:hover {
+  background-color: #b5e48c;
 }
 
-button:active{
-    background-color: #184e77;
+button:active {
+  background-color: #184e77;
 }
-
